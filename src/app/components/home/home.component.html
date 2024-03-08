@@ -1,0 +1,15 @@
+<section class="character-wrapper">
+
+  <div class="character-list">
+
+    <card 
+      *ngFor="let character of characters; track: trackCharacter" 
+      imageCharacter="{{character.image}}"
+      nameCharacter="{{character.name}}"
+      statusCharacter="{{character.status}}" 
+      speciesCharacter="{{character.species}}" 
+    />
+
+  </div>
+
+</section>

@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+:root {
+  --bg-color: #272b33;
+  --card-color: #3c3e44;
+  --link-color: #ff9800;
+  --live-color: #55cc44;
+  --dead-color: #d63d2e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Roboto";
+  background-color: var(--bg-color);
+}
